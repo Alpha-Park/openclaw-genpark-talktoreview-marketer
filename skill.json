@@ -1,0 +1,10 @@
+{
+  "name": "openclaw-genpark-talktoreview-marketer",
+  "version": "1.0.0",
+  "description": "OpenClaw GenPark TalkToReview Marketer - Aspect-Based Sentiment Analysis ABSA decomposition, Benford's Law & Poisson burst review fraud auditor, and HEAR reputation recovery composer with zero dependencies.",
+  "tools": [
+    "decompose_aspect_based_sentiment",
+    "audit_review_fraud_anomalies",
+    "compose_reputation_recovery_response"
+  ]
+}
