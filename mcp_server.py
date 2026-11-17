@@ -45,8 +45,7 @@ def compose_reputation_recovery_response(
     return json.dumps(res, indent=2)
 
 def main():
-    print("Testing TalkToReview Marketer:")
-    print(decompose_aspect_based_sentiment("The quality is amazing, but shipping was a terrible delay."))
+    mcp.run(transport="stdio")
 
 if __name__ == "__main__":
     main()
